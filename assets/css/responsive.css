@@ -1,0 +1,1288 @@
+   .modal-t{width: 50%;margin: 0 auto;}
+   .modal-s{width: 60%; margin: 0 auto;}
+   .modal-s2{width: 60%; margin: 0 auto;}
+   .modal-m{width: 70%; margin: 0 auto;}
+   .modal-b{min-width: 75%;}
+   .modal-w{min-width: 85%;}
+  .modal-w2{min-width: 90%;}
+  .modal-uw{min-width: 95%;}
+  .modal-sw{min-width: 99%;}
+  .modal-f{min-width: 100%;}
+
+@media screen and (max-width: 1850px) {
+  .modal-t{min-width: 61.6%;}
+  .modal-s{min-width: 61.6%;}
+  .modal-s2{min-width: 61.6%;}
+  .modal-m{min-width: 71.6%;}
+  .modal-b{min-width: 76.6%;}
+  .modal-w{min-width: 86.6%;}
+ .modal-w2{min-width: 91.6%;}
+ .modal-uw{min-width: 91.6%;}
+ .modal-sw{min-width: 91.6%;}
+ .modal-f{min-width: 101.6%;}  
+}
+@media screen and (max-width: 1800px) {
+  .modal-t{min-width: 65.2%;}
+  .modal-s{min-width: 63.2%;}
+  .modal-s2{min-width: 63.2%;}
+  .modal-m{min-width: 73.2%;}
+  .modal-b{min-width: 78.2%;}
+  .modal-w{min-width: 87.2%;}
+ .modal-w2{min-width: 93.2%;}
+ .modal-uw{min-width: 93.2%;}
+ .modal-sw{min-width: 93.2%;}
+ .modal-f{min-width: 103.2%;}
+}
+@media screen and (max-width: 1700px) {
+  .modal-t{min-width: 69.8%;}
+  .modal-s{min-width: 64.8%;}
+  .modal-s2{min-width: 64.8%;}
+  .modal-m{min-width: 74.8%;}
+  .modal-b{min-width: 79.8%;}
+  .modal-w{min-width: 88.8%;}
+ .modal-w2{min-width: 94.8%;}
+ .modal-uw{min-width: 94.8%;}
+ .modal-sw{min-width: 94.8%;}
+ .modal-f{min-width: 104.8%;}
+}
+@media screen and (max-width: 1600px) {
+  .modal-t{min-width: 73.2%;}
+  .modal-s{min-width: 66.2%;}
+  .modal-s2{min-width: 66.2%;}
+  .modal-m{min-width: 76.2%;}
+  .modal-b{min-width: 81.2%;}
+  .modal-w{min-width: 96.2%;}
+ .modal-w2{min-width: 96.2%;}
+ .modal-uw{min-width: 96.2%;}
+ .modal-sw{min-width: 96.2%;}
+ .modal-f{min-width: 106.2%;}
+}
+@media screen and (max-width: 1500px) {
+  .modal-t{min-width: 74.8%;}
+  .modal-s{min-width: 68.8%;}
+  .modal-s2{min-width: 68.8%;}
+  .modal-m{min-width: 78.8%;}
+  .modal-b{min-width: 82.8%;}
+  .modal-w{min-width: 98.8%;}
+ .modal-w2{min-width: 98.8%;}
+ .modal-uw{min-width: 98.8%;}
+ .modal-sw{min-width: 98.8%;}
+ .modal-f{min-width: 108.8%;}
+}
+@media screen and (max-width: 1400px) {
+  .modal-t{min-width: 76.4%;}
+  .modal-s{min-width: 70.4%;}
+  .modal-s2{min-width: 70.4%;}
+  .modal-m{min-width: 81.4%;}
+  .modal-b{min-width: 83.4%;}
+  .modal-w{min-width: 99%;}
+ .modal-w2{min-width: 90.4%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 1300px) {
+  .modal-t{min-width: 80.2%;}
+  .modal-s{min-width: 72%;}
+  .modal-s2{min-width: 72%;}
+  .modal-m{min-width: 85%;}
+  .modal-b{min-width: 84%;}
+  .modal-w{min-width: 75%;} /* Ovde se prebacuje za telefon */
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 1200px) {
+  .modal-t{min-width: 82%;}
+  .modal-s{min-width: 74.4%;}
+  .modal-s2{min-width: 84.4%;}
+  .modal-m{min-width: 87%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 80%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 900px) {
+  .modal-t{min-width: 70%;}
+  .modal-s{min-width: 77%;}
+  .modal-s2{min-width: 94%;}
+  .modal-m{min-width: 89%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 85%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 800px) {
+  .modal-t{min-width: 75%;}
+  .modal-s{min-width: 79%;}
+  .modal-s2{min-width: 79%;}
+  .modal-m{min-width: 92%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 90%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 700px) {
+  .modal-t{min-width: 80%;}
+  .modal-s{min-width: 86%;}
+  .modal-s2{min-width: 98%;}
+  .modal-m{min-width: 94%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 95%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 600px) {
+  .modal-t{min-width: 85%;}
+  .modal-s{min-width: 90%;}
+  .modal-s2{min-width: 99%;}
+  .modal-m{min-width: 95%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 94%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 500px) {
+  .modal-t{min-width: 95%;}
+  .modal-s{min-width: 95%;}
+  .modal-s2{min-width: 95%;}
+  .modal-m{min-width: 97%;}
+  .modal-b{min-width: 75%;}
+  .modal-w{min-width: 94%;}
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 450px) {
+  .modal-t{min-width: 97%;}
+  .modal-s{min-width: 99%;}
+  .modal-s2{min-width: 99%;}
+  .modal-m{min-width: 99%;}
+  .modal-b{min-width: 75%;}
+  /* .modal-w{min-width: 85%;} */
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+@media screen and (max-width: 400px) {
+  .modal-t{min-width: 99%;}
+  .modal-s{min-width: 99.9%;}
+  .modal-s2{min-width: 99.9%;}
+  .modal-m{min-width: 99.5%;}
+  .modal-b{min-width: 75%;}
+  /* .modal-w{min-width: 85%;} */
+ .modal-w2{min-width: 90%;}
+ .modal-uw{min-width: 95%;}
+ .modal-sw{min-width: 99%;}
+ .modal-f{min-width: 100%;}
+}
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+  /* View Account Modal3 - Bluebtn */
+  /* .modal {
+    width: 95%;
+  } */
+}
+
+
+@media screen and (max-width: 1600px) {
+  /* View Account Modal3 - Bluebtn */
+  /* .modal {
+    width: 99%;
+  } */
+  .modal-body {
+    padding: 0px 5px;
+  }
+  
+}
+
+
+@media screen and (max-width: 1450px) {
+
+  .nalogGrid-head, .nalogGrid-body,
+  .viewAccountGrid-head,.viewAccountGrid-body,
+  .duplicateViewGrid-head,.duplicateViewGrid-body {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 1386px) {
+  .nalog-head {
+    flex-direction: column !important;
+  }
+  .filterNalog {
+    margin-left: 0px;
+  }
+  .search-patient {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .modal-header p {
+    font-size: 23px
+  }
+  .modal-header {
+    padding: 10px 10px;
+  }
+  .single label, .storeInfo label, .singleMedicine label {
+    width: 175px;
+    font-size: 13px
+  }
+  .fav-medicines, .potrosni-materijal {
+    padding-left: 5px;
+  }
+  .materijal-med {
+    padding-left: 5px;
+  }
+  nav {
+    justify-content: flex-end !important;
+  }
+  nav ul {
+    margin-right: 10%;
+  }
+
+  /* KARTONI PAGE */
+  .container85 {
+    width: 90%;
+  }
+  .label-classic {
+    width: 95%;
+  }
+  /* end of KARTONI PAGE */
+
+  .nalogGrid-head, .nalogGrid-body,
+  .viewAccountGrid-head,.viewAccountGrid-body,
+  .duplicateViewGrid-head,.duplicateViewGrid-body {
+    font-size: 14px !important;
+  }
+  z
+  .nalogGrid-head .options-vah, .nalogGrid-body .options-vab {
+    min-width: 180px;
+  }
+  .options-vab > button {
+    margin-right: 2px;
+  }
+  .options-vab button:last-child {
+    margin-right: 0;
+  }
+  .printAppointmentName,
+  .printBloodName,
+  .printMedicineName {
+    width: 200px;
+    font-size: 14px;
+    
+  }
+  .bloodTab,
+  .appTab,
+  .therapyTab {
+    height: 25px;
+    padding: 0px 5px;
+    padding-right: 0px;
+  }
+  .bloodTab span,
+  .appTab span,
+  .thePrice span {
+    height: 25px;
+  }
+  .printBloodName.scroll2::-webkit-scrollbar,
+  .printMedicineName.scroll2::-webkit-scrollbar,
+  .printAppointmentName.scroll2::-webkit-scrollbar{
+    height:6px;
+  } 
+  .printMedicineName {
+    width: 150px;
+  }
+  #modalTherapy-body {
+    padding: 0px 5px;
+  }
+  .allInfoscroll {
+    padding-right: 10px;
+  }
+  .appPrice,.blPrice,.thePrice {
+    padding: 10px 5px;
+    max-height: 300px;
+  }
+  .pregledterapije {
+    margin: 0px 5px;
+  }
+}  
+  
+@media screen and (max-width: 1100px) {
+  .pregledterapijeflex {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .margina {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    padding: 0px !important;
+  }
+  .nalog {
+    min-height: auto;
+
+  }
+  .cardboardGrid-head {
+    display: none;
+  }
+  .cardboardGrid-body {
+    position: relative;
+    background: white;
+    font-size: 13px !important;
+    grid-template-columns: 0.25fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"no-vab doctor-vab therapy-vab dateadded-vab"
+                        "no-vab appointment-vab blood-vab  fullprice-vab";
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1575px) {
+  .charts-admin {margin: 70px auto;}
+  .chartweek {
+    width: 450px;
+    margin-right: 15px;
+  }
+  .chartday {
+    width: 450px;
+    margin-right: 15px;
+  }
+  .chartmonth {
+    width: 500px;
+    min-width: 340px;
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 100px;
+  }
+  .chartmonth canvas {
+    width: 400px !important;
+  }
+  .chartmonth:hover,.chartweek:hover,.chartday:hover {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    padding: 15px 25px;
+    transform: translate(20px);
+    transform:scale(1.1);
+    border-radius: 21px;
+    margin-left: 5%;
+    margin-top: 3%;
+    background: white !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+  }
+  .chartweek:hover,.chartday:hover {
+    padding: 10px 10px;
+    transform: translate(-20px);
+    transform:scale(1.15);
+    border-radius: 17px;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .charts-admin {
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.6fr .6fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."; 
+  }
+  .charts-admin div{
+    justify-content: center !important;
+    align-content: center !important;
+    margin: 0 auto !important;
+  }
+  .charts-admin {margin: 20px auto;}
+  .chartweek {
+    width: 510px;
+    margin-right: 15px;
+  }
+  .chartday {
+    width: 510px;
+    margin-right: 15px;
+  }
+  .chartmonth {
+    width: 50%;
+    min-width: 340px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 100px;
+  }
+  .chartmonth canvas {
+    width: 100% !important;
+  }
+  .chartmonth:hover,.chartweek:hover,.chartday:hover {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    padding: 5px 15px;
+    transform: translate(5px);
+    transform:scale(1.01);
+    border-radius: 21px;
+    margin-left: 0%;
+    margin-top: 0%;
+    background: white !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+  }
+  .chartweek:hover,.chartday:hover {
+    padding: 5px 15px;
+    transform: translate(-5px);
+    transform:scale(1.02);
+    border-radius: 17px;
+    margin-right: 0%;
+    margin-top: 0%;
+  }
+  .fdcolumnright2 {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .fdcolumnright2 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .chartweek {
+    width: 710px;
+    margin-right: 15px;
+  }
+  .chartday {
+    width: 710px;
+    margin-right: 15px;
+  }
+  .chartmonth {
+    width: 70%;
+    min-width: 340px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .chartweek {
+    width: 510px;
+    margin-right: 15px;
+  }
+  .chartday {
+    width: 510px;
+    margin-right: 15px;
+  }
+  .chartmonth {
+    width: 90%;
+    min-width: 340px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1530px) {
+  
+  /* .select-items div:nth-child(0),
+  .select-selected {
+    color: white;
+    overflow-x: hidden;
+    
+  } */
+  /* .appointment-vab .select-selected:after,
+  .blood-vab .select-selected:after {
+    right: none;
+    left: 3px;
+    transform-origin: 9.4% 48%;
+    color: var(--gray)
+  } */
+  .appointment-vab .select-items,
+  .blood-vab .select-items {
+    min-width: 200px;
+  }
+  .checked-vab, .checked-vah {min-width: 150px;}
+  .therapy-vab,.therapy-vah {min-width: 110px;}
+  
+  .btn-therapy {font-size: 11px}
+}
+
+@media screen and (max-width: 1180px) {
+  .account-statistic{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:"emp"
+    "emp"
+    "emp";
+  }
+  .account-statistic > div {
+    margin-bottom: 20px;
+  }
+  .smaller {
+    font-size: 25px !important;
+  }
+}
+
+/* 1. */
+@media screen and (max-width: 1005px) {
+  .nalog {
+    width: 99% !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  nav ul {
+    margin-right: 8%;
+  }
+  nav ul li {
+    padding: 10px 2px;
+  }
+  .logo svg {
+    height: 32px;
+  }
+  .logo {
+    left: 0px;
+  }
+  .account {
+    right: 20px;
+  }
+  .nalog-head {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .filterNalog .input-sec {
+    width: 150px;
+    padding: 3px 5px;
+    font-size: 12px !important;
+  }
+  /* KARTONI PAGE */
+  .open-cardboard-flex {
+    display: block;
+  }
+  /* end of KARTONI PAGE */
+
+  footer {
+    display: block;
+  }
+  .logo-footer {
+    padding: 0;
+    margin: 0;
+  }
+  .left-footer {
+    padding: 0;
+    padding-top: 40px;
+  }
+  .logo-footer svg {
+    padding: 0;
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+  }
+  .left-footer,
+  .mid-footer,
+  .right-footer {
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  svg.master,
+  svg.dina,
+  svg.maestro,
+  svg.visa {
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 945px) {
+  /* .modal {
+    width: 99%;
+  } */
+  .conm2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .therapiesResponsive {
+    flex-direction: column !important;
+  }
+  .apotekaflex2 {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .apotekaflex2 .materijal-med {
+    margin: 0 auto;
+  }
+  .pregled-krv {
+    flex-direction: column;
+  }
+  .duplicateViewGrid-head {
+    display: none;
+  }
+  .duplicateViewGrid-body {
+    grid-template-columns: 0.25fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"no-vab namesur-vab namesur-vab namesur-vab"
+                        "no-vab doctor-vab appointment-vab blood-vab"
+                        "no-vab therapy-vab fullprice-vab fullprice-vab";
+  }
+  .nalogGrid-head .options-vah, .nalogGrid-body .options-vab {
+    min-width: 150px !important;
+  }
+  .options-vab > button {
+    margin-right: 2px;
+    width: 25px !important;
+    height: 30px !important;
+  }
+  .options-vab .crudbtns svg {
+    margin-right: 2px;
+    width: 25px !important;
+    height: 25px !important;
+    min-width: 25px !important;
+    min-height: 25px !important;
+  }
+  .options-vab button:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .addprice-btn {
+    font-size: 13px;
+  }
+  .namesur-vab, .namesur-vah  {
+    min-width: 100px;
+  }
+  .fullprice-vab, .fullprice-vah {
+    min-width: 100px;
+  }
+  .nalogGrid-head div {
+    text-align: center;
+    text-indent: 0px;
+  }
+  .viewAccountGrid-head {
+    display: none;
+  }
+  .viewAccountGrid-body {
+    grid-template-columns: 0.25fr 0.7fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"no-vab namesur-vab dateadded-vab fullprice-vab"
+                        "no-vab doctor-vab therapy-vab options-vab"
+                        "no-vab appointment-vab blood-vab checked-vab";
+  }
+  nav ul li, nav ul li a {
+    font-size: 14px;
+  }
+  /* .appointment-vab .select-selected:after,
+  .blood-vab .select-selected:after,
+  .doctor-vab .select-selected:after {
+    right: none;
+    left: 3px;
+    transform-origin: 8.4% 48%;
+    color: var(--gray)
+  } */
+  .subbp{justify-content: center !important; width: 50%;margin:10px auto; border-bottom: 2px solid var(--gray4); margin-bottom: 5px !important;}
+}
+
+
+@media screen and (max-width: 865px) {
+  
+  .nalogGrid-head {
+    display: none;
+  }
+  .nalogGrid-body {
+    margin: 0 auto;
+    grid-template-columns: 0.25fr 0.7fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"no-vab namesur-vab doctor-vab"
+                        "no-vab dateadded-vab checked-vab"
+                        "no-vab fullprice-vab options-vab";
+  }
+  
+  .trosakGrid-head{
+    display: none;
+  }
+  .trosakGrid-body {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: white;
+    grid-template-areas:"namesur-vab dateadded-vab"
+                        "options-vab fullprice-vab";
+  }
+  .no-vab {
+    font-size: 13px;
+    min-width: 35px;
+  }
+  
+  /* .orange-check {
+    border-left: 0px !important;
+  } */
+  /* .filter-addnalog {
+    flex-direction: row;
+  } */
+/*   .rnalog-head, .filterNalog  {
+     justify-content: center !important; 
+  } */
+ 
+  .doctor-vab .select-items{top: 0%;transform:translate(0%, 95px);}
+  .accordion1 {
+    margin: 5px auto !important;
+  }
+  #nalog .container85 {
+    width: 98% !important;
+  }
+  .add-nalog .close-button {
+    position: absolute;
+    margin-right: 20px;
+    right: 0px;
+  }
+  .accordion1-header {
+    padding: 5px 20px
+  }
+  .price {
+    padding: 0px 7px;
+  }
+  .select-doctor .select-selected {
+    padding: 9px 20px;
+  }
+  #showAccountsDiv div:last-child .checked-vab:last-child {
+    border-bottom-right-radius: 0px;
+  }
+  #showAccountsDiv div:last-child .no-vab {
+    border-bottom-left-radius: 0px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left-container h2 {
+    font-size: 18px !important;
+  }
+  .acc-grid {
+    width: 80%; margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 15px 15px; 
+    grid-template-areas: 
+      "."
+      ".";
+  }
+  .sifrarnik ul {
+    min-width: 350px;
+  
+  }
+  .apotekaflex {
+    flex-direction: column;
+  }
+  .resizmena .addprice-btn{
+    width: 250px !important;
+  } 
+  .analysisNameCalc,.analysisPriceCalc,.removeFirstAddition {
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .analysisNameCalc {
+    width: 300px;
+    overflow: hidden;
+    overflow-x: auto;
+    justify-content: start;
+  }
+  .logo svg {
+    height: 29px;
+  }
+  .account {
+    right: 60px;
+  }
+  #main {
+    display: block;
+  }
+  nav li {
+    display: none;
+  }
+  nav {
+    height: 50px;
+  }
+  nav ul {
+    margin-right: 70px;
+  }
+  /* KARTONI PAGE */
+  .container85 {
+    width: 95%;
+  }
+  .cardboard-flex {
+    display: block;
+  }
+  .search-output {
+    width: 85%;
+  }
+  .search-btn {
+    padding: 4px 13px;
+  }
+  /* end of KARTONI PAGE */
+  .filterNalog .label-classic {
+    display: none;
+  }
+  
+  .therapiesResponsive p {
+    margin: 0 !important;
+  }
+  .therapy {
+    min-width: 450px;
+  }
+  .therapyrelative p {
+    justify-content: flex-start !important;
+    text-indent: 20px;
+    font-size: 17px;
+  }
+  .therapiesResponsive {
+    position: relative;
+  }
+  .therapiesResponsive .addRemoveButton {
+    position: absolute;
+    top: -3px;right: 0;
+  }
+  .single {
+    
+    margin: 0 auto;
+  }
+
+  .medicineShortcut {
+    margin: 0 auto;
+  }
+  .medicineShortcut .single {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .build-nalog-body {
+    padding: 10px !important; 
+  }
+  .therapiesButtons {
+    flex-direction: column !important;
+  }
+/* .chosenTherapy:nth-child(1) {
+  border-radius: 0px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px !important;
+  
+}
+.startingTherapy:nth-child(1) {
+  border-bottom-left-radius: 13px !important;
+} */
+#customTherapy:nth-child(3),
+#customTherapy:nth-child(2){
+  border-radius: 0px;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+}
+#customTherapySubAccount,.chosenTherapySubAccount:nth-child(1){
+  border-radius: 0px !important;
+  
+}
+.therapiesButtons button {
+  width: 100%;
+}
+/* .modal-body,
+.allInfoscroll {
+  max-height: 500px !important;
+} */
+.modal-header p {
+  font-size: 18px !important;
+}
+.changeflex {
+  flex-direction: column !important;
+}
+.materijal-med:first-child {
+  margin-bottom: 10px;
+}
+.fav-medicines, .potrosni-materijal {
+  max-height: 190px;
+}
+.subbp{font-size: 17px}
+}
+@media screen and (max-width: 600px) {
+  
+  
+  .search-output {
+    width: 90%;
+  }
+  .bankcolumn {
+    display: flex;
+    flex-direction: column;
+  }
+  .bankcolumn .label-classic {
+    margin-left: 25px;
+  }
+  .drflex {
+    flex-direction: column;
+    width: 100%;
+  }
+  .drflex div .commentTherpay, .drflex div, .zakljucak{
+    width: 100% !important;
+  }
+
+  .driz div div {
+    margin-left: 0px;
+  } 
+  .select-list1-item {
+    font-size: 11px;
+  }
+  .logo-footer svg {
+    width: 250px;
+  }
+  .filterNalog .label-classic {
+    display: none;
+  }
+  .container85 {
+    width: 99%;
+  }
+  .priceCard td:last-child {
+    font-weight: 600;font-size: 14px;
+
+  }
+  .calculator-head p {
+    font-size: 19px;
+  }
+  .priceclear span:last-child {
+    font-size: 15px;
+    padding: 2px 8px;
+  }
+  .priceclear span:first-child {
+    font-size: 15px;
+  }
+  .calculator-options span:first-child {
+    padding: 0px 8px;
+    font-size: 15px;
+  }
+  .calculator-head {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .priceclear {
+    margin-left: 10px;
+  }
+  .analysisPrice .addprice-btn{
+    width: 300px !important;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .priceCard td {
+    padding-left: 0px;
+  }
+  .priceCard table {
+    margin-right: 5px;
+  }
+  .modal {
+    width: 95%;
+  }
+  .filter-addnalog {
+    flex-direction: column;
+  }
+  .rnalog-head {
+    margin-top: 10px;
+  }
+  .rnalog-head span {
+    width: 100%;
+    text-align: center;
+  }
+  .filterNalog {
+    justify-content: flex-start !important;
+  }
+  
+  .lnalog-head {
+    width: 110px;
+  }
+  .lnalog-head p {
+    font-size: 25px;
+  }
+  #resetButton {
+    position: absolute;
+    right: 20px;
+  }
+  .nalogGrid-head, .nalogGrid-body {
+    gap: 0px 3px;
+  }
+  .head-tcss {
+    margin-top: 3px;
+  }
+  .nalogGrid-body > div {
+    font-size: 13px !important;
+  }
+  .nalogGrid-body {
+    margin-top: 5px;
+  }
+  .select-selected {
+    font-size: 11px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .account .acc-menu{
+    position: absolute;width:300px;right:-22px;top:120px;background-color:#fff;
+  }
+  #loginForm {
+    width: 95%;margin: 0 auto;
+    padding: 0px 20px;
+  }
+  #loginlogo {
+    height: 35px;
+  }
+  .login-view {
+    width: 100%;margin: 0 auto;
+  }
+  .search-output {
+    width: 90%;
+  }
+  .resizmena .price-table .analysisPrice .addprice-btn{
+    width: 100%;
+ 
+  }
+  .bankcolumn .label-classic {
+    margin-left: 10px;
+    width: 200px;
+  }
+  .bankcolumn {
+    width: 100%;
+  }
+  .chartweek {
+    width: 410px;
+    margin-right: 0px;
+  }
+  .chartday {
+    width: 410px;
+    margin-right: 0px;
+  }
+  .chartmonth {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .calcfc div{
+    width: 350px;
+  }
+  .chartmonth, .chartweek, .chartday {
+    padding: 0px;
+  }
+  .chartmonth:hover,.chartweek:hover,.chartday:hover {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    padding: 0px 0px;
+    transform: translate(0px);
+    transform:scale(1);
+    border-radius: 0px;
+    margin-left: 0%;
+    margin-top: 0%;
+    background: white !important;
+    box-shadow: none;
+  }
+  .chartweek:hover,.chartday:hover {
+    padding: 0px 0px;
+    transform: translate(0px);
+    transform:scale(1);
+    border-radius: 0px;
+    margin-right: 0%;
+    margin-top: 0%;
+  }
+  #showIncomeButton {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .chartmonth p,.chartweek p,.chartday p {
+    width: 80%;
+    font-size: 23px;
+    color: #505050;font-weight: 700;
+    border-bottom: 2px solid #d1d1d1;
+    text-align: center;
+  }
+  .datebankalign2 {
+    flex-direction: column;
+  }
+  .chartmonth p {
+    text-align: center;
+  }
+  .resizmena .addprice-btn{
+    width: 200px !important;
+  }
+  .modal-body {
+  max-height: 430px !important;
+}
+
+  
+  .select-doctor5 select {
+    width: 110px;
+  }
+  .search-patient {
+    justify-content: center !important;
+  }
+  .medicineGrid-head {
+    display: none !important;
+  }
+  .medicineGrid-body, .medicineGrid-head {
+    display: flex;flex-direction: column;                   
+  }
+  .medicine-vah,.medicine-vab,.quantity-vah,
+  .quantity-vab,.updatequantity-vah,.updatequantity-vab {
+    min-width: none;
+    margin: 0;
+    margin-top: 5px;
+  }
+  .medicineGrid-body {
+    margin-top: 10px;
+    border-top: 7px solid var(--blue);
+  }
+  .medicine-vab {
+    margin: 0;
+  }
+  .cenovnik-component {
+    width: 300px;
+  }
+  .pricecard-analize button,.pricecard-pregledi button,.pricecard-lekovi button {
+    width: 100px;font-size: 15px;
+  }
+  .pricecard-analize input,.pricecard-pregledi input,.pricecard-lekovi input {
+    width: 100px;font-size: 11px;
+  }
+  .admin-views button {
+    padding: 10px;font-size: 15px;
+  }
+  .number-input button {
+    width: 40px;
+  }
+  .therapy {
+    width: 99%;
+    min-width: 0px;
+  }
+  .viewAccountGrid-body {
+    font-size: 12px !important;
+    grid-template-columns: 0.25fr 140px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"no-vab namesur-vab dateadded-vab"
+                        "no-vab doctor-vab therapy-vab"
+                        "no-vab options-vab checked-vab"
+                        "no-vab fullprice-vab fullprice-vab"
+                        "no-vab appointment-vab blood-vab";
+  }
+  .viewAccountGrid-body .options-vab,
+  .viewAccountGrid-head .options-vah{
+    width: 140px !important;
+    min-width: 140px !important;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .analysisPrice .addprice-btn{
+    width: 240px !important;
+ 
+  }
+  .resizmena .price-table .analysisPrice .addprice-btn{
+    width: 200px !important;
+ 
+  }
+  
+  .calculator-options {
+    width: 23.33%;
+  }
+  
+  .logo svg {
+    height: 20px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  /* KARTONI PAGE */
+.container85 {
+    width: 98%;
+  }
+  .cardboard-flex {
+    display: block;
+  }
+  .search-output {
+    width: 90%;
+  }
+  .search-btn {
+    font-size: 15px;
+    padding: 4px 10px;
+  }
+  .rcard-white {
+    border-radius: 10px;
+  }
+  .search-patient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-patient .search-component { 
+    width: 250px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .lnalog-head {
+    margin-left: 20px !important;
+  }
+  .filterNalog {
+    justify-content: center !important;
+  }
+  #resetButton {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+  }
+  /* end of KARTONI PAGE */
+  
+}
+@media screen and (max-width: 400px) {
+  .search-output {
+    width: 90%;
+  }
+  /* KARTONI PAGE */
+  .container85 {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  .cardboard-flex {
+    display: block;
+  }
+  
+  .search-btn {
+    font-size: 13px !important;
+    padding: 4px 10px;
+  }
+  .analysisPrice .addprice-btn{
+    width: 250px;
+ 
+  }
+  /* end of KARTONI PAGE */
+}
+
+/* OVO PRETVARA PREGLED GRID U MOBILE GRID */
+
+

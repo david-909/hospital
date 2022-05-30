@@ -1,0 +1,205 @@
+
+.fnoalign {
+    display: flex;
+    justify-content: center;
+  }
+  .fconly {
+    display: flex;
+    align-items: center;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .fc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fr {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .fl {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .fb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fb2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fb3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .fa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .fend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .fstart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .fst {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .fen {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .fstretch {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+  }
+  .fbase {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .finherit {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+  }
+  .finitial {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+  }
+  .fsafe {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+  }
+  .funsafe {
+    display: flex;
+    justify-content: unsafe;
+    align-items: center;
+  }
+  .funset {
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+  }
+  .fdcolumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fdcolumn2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .fdcolumn3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .fdcolumn4 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .fdcolumn2r {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .fdcolumn2l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .fdrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .txtc {
+    text-align: center;
+  }
+  .txtl {
+    text-align: left !important;
+  }
+  .txtr {
+    text-align: right !important;
+  }
+  input {
+    font-family: "Monaco";
+    border: none;
+    outline: none;
+    font-weight: 700;
+  }
+  .slipper,
+  .slipper1 input,
+  .slipper input {
+    font-size: 9.5pt !important;
+  }
+  
+  .logo-slipper {
+    width: 280px;
+  }
+  /* .slipper1 input, .slipper input {
+    font-family: 'printfont' !important;
+    font-size: 13pt !important;
+  } */
+  .slipperformat {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slipper {
+    width: 8cm;
+    margin: 0 auto;
+    height: auto;
+    /*   
+    font-size: 13pt !important;
+    font-family: 'printfont' !important; */
+  }
+  .header-slipper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .slipper2 {
+    width: 5cm;
+  }
+  .currency-print-slipper,
+  .slipper1 input,
+  .currency-service-print-slipper,
+  .currency-service-print {
+    width: 40px;
+  }
+  .value-print-slipper,
+  .edit-service-price-print-slipper {
+    width: 70px;
+  }
+  

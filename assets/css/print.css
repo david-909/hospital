@@ -1,0 +1,338 @@
+header, footer {
+  display: none;
+}
+.therapy-prices .tab-print .service2-print.chide {
+  display: none !important;
+}
+.tab-printclass.chide {
+  display: none !important;
+}
+.appblood-print .activemedicine {
+  display: block !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.therapy-prices .activemedicine {
+  display: block !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.chide {
+  display: none !important;
+}
+
+.master-print .header-print.chide {
+  display: none !important;
+}
+.slave-print .header-print.chide {
+  display: none !important;
+}
+.print-settings {
+  width: 250px;
+  height: 100%;
+  border-right: 1px solid var(--gray4);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0%;
+  -webkit-transform: translate(-0%, 0%);
+      -ms-transform: translate(-0%, 0%);
+          transform: translate(-0%, 0%);
+}
+.print-settings button {
+  width: 100%;
+  font-weight: 500;
+  padding: 5px 30px;
+  background: white;
+  white-space: nowrap;
+  color: var(--gray2);
+  -webkit-transition: ease .2s;
+  -o-transition: ease .2s;
+  transition: ease .2s;
+  text-align: left;
+}
+.print-settings button:hover {
+  background: var(--blue);
+  color: white;
+  padding-left: 15px;
+}
+.print-settings button.activeprint {
+  padding-left: 15px;
+  background: var(--blue) !important;
+  color: white;
+}
+.print-settings button.activeprint:hover {
+  background: var(--blue) !important;
+}
+.print-settings button:first-child {
+  /* background: var(--red2); */
+}
+.print-settings:first-child.activeprint {
+  background: var(--red);
+}
+.print-settings button:first-child:hover {
+  padding-left: 15px;
+  background: var(--red2);
+}
+
+.therapycenter,.header-print.fb.chide, .terapija-head.chide h3,.header-print.chide h3:first-child {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  text-align: center !important;
+  text-indent: 0px !important;
+  width: 100% !important;
+}
+.allInfo {
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  margin: 0mm auto;
+  margin-top: 8mm;
+  padding-top: 0px;
+  color: #3d3d3d;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(80, 80, 80, 0.2);
+          box-shadow: 0px 0px 10px 0px rgba(80, 80, 80, 0.2);
+}
+.allInfo:nth-child(1) {
+  height: 100% !important;
+  /* padding-top: 0px !important; */
+  /* margin-top: 0mm !important; */
+}
+/* .dbidsub:nth-child(1) {
+  margin-top: 25px;
+} */
+#sub-page {
+  position: relative;
+  width: 210mm;
+  height: 100%;
+  margin: 0mm auto;
+  color: #3d3d3d;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-print-page {
+  margin-left: 40px;
+  margin-right: 40px;
+  /* padding-top: 30px; */
+}
+/* .a4spec {
+  width: 100%;
+  padding: 0px 10px;
+  height: 100%;
+  margin: 0mm auto;
+} */
+
+.print-body {
+  width: 75%; margin: 0 auto;
+}
+
+.header-print {
+  /* padding-top: 20px; */
+  padding-left: 20px;
+}
+.naloginfo-print {
+  font-size: 11pt;
+}
+.logoprint {
+
+}
+.logoa4 {
+  width: 310px;
+}
+.dbid {
+  font-weight: 600;
+  font-size: 12pt;
+}
+.name-surname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+  font-weight: 700; font-size: 27px;
+}
+.printPatientJmbg {
+  font-size: 10.5pt;
+}
+.drname-surname {
+  font-weight: 500;
+}
+
+.tab-print {
+  width: 100%;
+}
+.service-print {
+  width: 70%;
+  border: 2px solid var(--gray4);
+  border-radius: 4px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  text-indent: 10px;
+  height: 25px;
+}
+.service2-print {
+  width: 30%;
+  border: 2px solid var(--gray4);
+  font-size: 10pt;
+  border-radius: 7px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  text-indent: 10px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tab-print {
+  position: relative;
+}
+.value-print {
+  width: 50%;
+  direction: ltr;
+  text-align: right;
+}
+.currency-print {
+  width: 50%;
+}
+.edit-medicine-print {
+  text-indent: 0px;
+}
+.edit-medicine-print input:nth-child(1) {
+  width: 18px;
+  margin-left: 2px;
+}
+.edit-medicine-print input:nth-child(2) {
+  width: 40px;
+  margin-right: 2px;
+}
+.edit-medicine-print input:nth-child(3) {
+  width: 25px;
+}
+.edit-medicine-print input:nth-child(4) {
+  width: 100%;
+  text-align: right;
+}
+.edit-medicine-print input:nth-child(5) {
+  width: 38px;
+  margin-right: 2px;
+}
+.edit-service-price-print {
+  width: 80px;
+  text-align: right;
+}
+.currency-service-print {
+  width: 30px;
+}
+.currency-fullservice-print {
+  width: 40px;
+}
+.printCommentAccount-edit-print,.drprint {
+  position: relative;
+  font-size: 9.5pt;
+  padding: 10px;
+  background: var(--lightgray) !important;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  min-width: 100%;
+  resize: none;
+  height: auto !important;
+  min-height: 50px;
+  max-width: 100px;
+  font-family:"Poppins",sans-serif;
+}
+.header-print h3:first-child{
+  width: 70%;
+  text-indent: 5px;
+}
+.header-print h3:last-child{
+  width: 30%;
+  text-indent: 5px;
+}
+.price-print {
+  font-weight: 500;font-size: 10.5pt;
+  padding: 5px 0px;
+  border-bottom: 2px solid var(--gray4);
+}
+.printTherapy {
+  position: relative;
+  width: 85%;
+  margin-top: 15px;
+  text-indent: 15px;
+}
+
+.printCommentAccount {
+  font-size: 9.5pt;
+  padding: 10px;
+  background: var(--lightgray2);
+}
+
+.h3set {
+  position: absolute;
+  right: 25%;
+  -webkit-transform: translate(25%, 0%);
+      -ms-transform: translate(25%, 0%);
+          transform: translate(25%, 0%);
+  bottom: 0px;
+}
+.underline {
+  width: 590px;margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid var(--gray4);
+}
+
+.quantity-print {
+  direction: rtl;
+}
+
+
+
+
+
+/* @page {
+  size: A4;
+  margin: 8mm 5mm;
+} */
+@media print {
+  /* html,
+  body {
+    width: 210mm;
+    font-size: 10pt;
+    color: #3d3d3d;
+    margin: 0mm auto;
+  } */
+  body {color:black !important; }
+  .allInfo {
+    margin: 0mm auto;
+    padding: 0px !important;
+    height: 297mm !important;
+    color: #3d3d3d;
+    font-size: 10pt;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    -webkit-box-shadow: initial;
+            box-shadow: initial;
+    background: initial;
+    page-break-after: auto;
+  }
+
+  .print-settings,.info-msg {
+    display: none !important;
+  }
+
+}

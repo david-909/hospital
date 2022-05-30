@@ -1,0 +1,876 @@
+/*   _    ____  ____    _   _    _    _     ___   ____ 
+    / \  |  _ \|  _ \  | \ | |  / \  | |   / _ \ / ___|
+   / _ \ | | | | | | | |  \| | / _ \ | |  | | | | |  _ 
+  / ___ \| |_| | |_| | | |\  |/ ___ \| |__| |_| | |_| |
+ /_/   \_\____/|____/  |_| \_/_/   \_\_____\___/ \____|                                                       
+*/
+
+/* ADD NALOG */
+.add-nalog {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+}
+.add-nalog .close-button {
+  float: right;
+  margin-right: 42px;
+  margin-top: 20px;
+  background: transparent;
+  transition: all .5s !important;
+}
+/* .add-nalog .close-button:hover {
+  box-shadow: 0px 0px 2px 2px var(--gray);
+} */
+
+
+.build-nalog-body {
+    width: 100%;
+    margin: 0 auto;
+}
+.therapy-todo, .pregled-krv {
+    margin: 0 auto;
+    width: 100%;
+}
+.price{
+    border-radius: 10px;
+    padding: 2px 7px;
+    background:  white;
+    color: var(--gray);
+    position: absolute;
+    right: 50px;
+}
+
+.price-output {
+    color: white;
+    border-radius: 33px;
+}
+.price-output div span:nth-child(1) {
+  padding: 3px 14px;
+  width: 270px;
+  border-radius: 33px;
+  border-top-right-radius: 0;border-bottom-right-radius: 0;
+  text-align: center;
+  display: flex;align-items: center; justify-content: center;
+  background: var(--blue2);
+}
+.price-output div {
+  border-radius: 33px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  
+}
+
+.price-output div span:nth-child(2){
+  color: var(--red2);
+  padding-right: 5px;
+  padding-left: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 3px solid var(--lightgray);
+  border-bottom:3px solid var(--lightgray);
+  
+}
+.price-output div span:nth-child(3){
+  color: var(--gray);
+  border-radius: 0;
+  padding-right: 20px;
+  border-top-right-radius: 33px;
+  border-bottom-right-radius: 33px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 3px solid var(--lightgray);
+  border-bottom:3px solid var(--lightgray);
+  border-right: 3px solid var(--lightgray);
+  
+}
+.final-btn {  
+  margin: 20px auto;margin-bottom: 30px;
+  padding: 8px 20px;
+  background: var(--orange);
+  color: white;
+  border-radius: 33px;
+  transition: ease-in-out .4s;
+  cursor: pointer;
+}
+.final-btn:hover {
+  padding: 8px 29px;
+  border-top-right-radius: 33px;
+  border-bottom-right-radius: 33px;
+  background: var(--green);
+  color: white;
+}
+
+
+
+.therapyCustomSize {
+  padding: 10px;
+}
+
+.therapy {
+  width: 100%;margin: 0 auto;
+  min-width: 570px;
+  border-radius: 23px;
+  box-shadow: 0px 0px 20px 0px rgba(94, 94, 94, 0.2);
+}
+p.therapylabel {
+  position: relative;
+  font-size: 21px;font-weight: 700;color: white;
+  padding: 5px 0px;
+  background: var(--blue);
+  border-radius: 23px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  
+}
+.therapyrelative {
+  position: relative;
+}
+.therapyrelative .priceTherapy{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 40px;
+  padding: 1px 8px;
+  font-weight: 500;color: var(--gray);
+  background: white;
+  border-radius: 10px;
+}
+
+.front-therapy{width:100%;margin:0 auto;}
+
+.therapiesButtons ,#startingTherapy {
+  border-radius: 13px;
+  box-shadow: 0px 0px 10px 0px rgba(72, 72, 72, 0.2);
+  background: var(--blue2);
+}
+#startingTherapy, #startingTherapy1 {
+  background: transparent;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+#startingTherapy button, #startingTherapy1 button {
+  background: var(--blue2);
+  text-align: center;
+ 
+}
+.therapy-view #startingTherapy button:first-child {
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 13px;
+  border-top-right-radius: 0px;
+}
+.therapy-view #startingTherapy button:last-child {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 13px;
+}
+.chosenTherapy, .startingTherapy,.startingTherapy1, .chosenTherapySubAccount,#customTherapySubAccount{
+  font-weight:600;color:white;
+  padding:5px 15px;
+  cursor:pointer;transition:ease .26s; 
+}
+.chosenTherapy:hover, .startingTherapy:hover, .chosenTherapySubAccount:hover
+{color:white;background:var(--blue2);}
+.chosenTherapy:nth-child(1), .startingTherapy1:nth-child(1),.startingTherapy:nth-child(1), .chosenTherapySubAccount:nth-child(1){
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+}
+.chosenTherapy:nth-child(1):hover,
+.startingTherapy:nth-child(1):hover,
+.chosenTherapySubAccount:nth-child(1):hover,
+.startingTherapy1:nth-child(1):hover{
+  background: var(--orange) !important;
+}
+.chosenTherapy:nth-child(2):hover,
+.startingTherapy:nth-child(2):hover,
+.chosenTherapySubAccount:nth-child(2):hover,
+.startingTherapy1:nth-child(2):hover {
+  background: var(--blue) !important;
+}
+.chosenTherapy:nth-child(3):hover, #customTherapySubAccount:hover{
+  background: var(--green) !important;
+}
+.chosenTherapy:nth-child(3),
+.startingTherapy:nth-child(2),
+#customTherapySubAccount,
+.startingTherapy1:nth-child(2){
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.chosenTherapySubAccount:nth-child(1).activecustom {
+  background: var(--orange) !important;
+}
+.chosenTherapySubAccount:nth-child(2).activecustom {
+  background: var(--blue) !important;
+}
+.chosenTherapy:nth-child(3).activecustom {
+  background: var(--green) !important;
+}
+
+
+.chosenTherapy:nth-child(1).activecustom {
+  background: var(--orange) !important;
+}
+.chosenTherapy:nth-child(2).activecustom {
+  background: var(--blue) !important;
+}
+#customTherapySubAccount.activecustom {
+  background: var(--green) !important;
+}
+.medicinesClass .search-component .search-input {
+  height: 30px !important;
+}
+.startingTherapy {
+  background: var(--blue2);
+}
+.therapy-view {
+  margin: 15px auto !important;
+  border-radius: 13px;
+  height: auto;
+  box-shadow: 0px 0px 10px 0px rgba(85, 85, 85, 0.2);
+}
+#medicines1 {
+  /* padding-bottom: 10px; */
+}
+#medicines1 .single:first-child {
+  margin-top: 10px;
+}
+.medicineShortcut .single,
+.storeInfo,
+.singleMedicine {
+  width: 100%;
+  display: flex;align-items: center;
+}
+.single, .storeInfo, .singleMedicine  {
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+  border-radius: 33px;
+  border: 2px solid var(--gray4);
+  background: white;
+  padding: 1px 10px;
+ 
+}
+.single label, .storeInfo label, .singleMedicine label {
+  height: 30px;
+  white-space: nowrap;
+  width: 250px;
+  border-radius: 33px;
+  padding-left: 5px;
+  overflow: hidden;
+  overflow-x: auto;
+  color: var(--gray2);font-weight: 500;
+}
+/* .single label:hover {
+
+} */
+.storeInfo {
+  background: var(--blue);
+  
+  border: 2px solid var(--blue);
+}
+.storeInfo label {
+  display: flex;justify-content: flex-start; align-items: center;color: white !important;
+}
+
+.storeInfo span {
+  display: flex;
+  justify-content: center;align-items: center;
+  background: white !important;
+  color: var(--gray);
+}
+.single input, .storeInfo input, .singleMedicine input {
+  position: relative; 
+  z-index: 400;
+  width: 40px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--red);
+  text-indent: 20px;
+  
+}
+.mostUsedMedicines {
+  margin-left: 5px;
+}
+.xxx svg, .addRemoveButton svg, .xxx1 svg, .addRemoveButton1 svg, .deleteMedicine svg {
+  min-width: 25px !important;width: 25px !important;
+  min-height: 25px !important;height: 25px !important;
+  margin: 0 !important;
+  margin-right: 2px !important;
+}
+.storeInfo input {
+  color: white;
+}
+.single input[type=number]::-webkit-inner-spin-button, 
+.single input[type=number]::-webkit-outer-spin-button,
+.storeInfo input[type=number]::-webkit-inner-spin-button,
+.storeInfo input[type=number]::-webkit-outer-spin-button,
+.singleMedicine input[type=number]::-webkit-inner-spin-button,
+.singleMedicine input[type=number]::-webkit-outer-spin-button{
+  opacity: 1; 
+  margin: 0;
+  padding: 0;
+  position: absolute; 
+  z-index: 500;
+  top: 50%;
+  transform: translate(0%,-50%);
+  left: 0px;
+  cursor: pointer;
+  height: 30px;
+
+}
+.priceOfMedicineCustom, .singleMedicinePriceUpdate, .priceOfMedicineCustom1 {
+  width: 15%;
+  min-width: 15%;
+  height: 25px;
+  background: var(--blue2);
+  border-radius: 33px;
+  color: white;
+  margin-right: 5px;
+  cursor: default;
+}
+.medicineMove {
+  color: white;
+  font-weight: 600;
+  
+}
+.medicineMoveClass {
+  margin: 0 10px;
+  border-radius: 33px;
+  background: var(--blue);
+  margin-bottom: 5px;
+  padding: 2px 10px;
+  transition: ease .2s;
+  color: white;
+  font-weight: 600;
+}
+.medicineMoveClass:hover {
+  background: var(--blue2);
+}
+.medicineMoveClass:first-child {
+  margin-top: 10px;
+}
+.sc00 {
+  position: relative !important;
+  z-index: 9000 !important;
+}
+.medicineOutputClassFront {
+  position: absolute;
+  z-index: 9100;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  justify-content: left !important;
+  flex-direction: column;
+  max-height: 250px;
+  overflow: hidden;
+  overflow-y: auto;
+  background: white;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+}
+.medicineOutputClassFront2 {
+  top: 40px;
+  transform: translate(-50%, 0%);
+}
+.therapiesButtons {
+  position: relative;
+}
+#addRemoveButton1 {
+ margin-left: 10px;
+
+}
+.addRemoveButton {
+  margin-left: 5px;
+}
+.commentTherpay {
+  width: 50%;
+  min-width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  outline: none;
+  border: none;
+  background: var(--lightgray2);
+  padding: 10px;
+  border-radius: 13px;
+}
+.startingTherapy1 {
+
+}
+#medicinesSubAccount {
+  width: 100%;
+  margin: 0px auto;
+
+  max-height: 350px;
+  overflow: hidden;
+  overflow-y:auto;
+}
+.direction {
+  flex-direction: column-reverse !important;
+  border-radius: 15px;
+  padding: 0px 0px;
+}
+.apoteka {
+  margin-top: 10px;
+}
+.search-apoteka label {
+  margin-top: 0px;
+}
+.dupapoteka {
+  display: none;
+}
+.search-apoteka {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 23px;
+  box-shadow: 0px 0px 20px 0px rgba(72, 72, 72, 0.2);
+}
+
+.izaberi-infuziju{width:70%;}
+.izaberi-lek-wrapper{width:100%;padding:0px;margin:0px 10px;}
+.izaberi-lek{
+  box-shadow:0px 0px 10px 0px rgba(0, 0, 0, .2);
+  padding:10px 5px;border-radius:13px;margin-top:5px;
+}
+.izaberi-lek-scroll{
+  min-height:215px;max-height:300px;
+  overflow:hidden;overflow-y:scroll;
+  background:white;border-radius:3px;
+}
+.flex-boxes{padding:5px 10px;}
+
+.fbox{width:75px;margin-right:10px;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, .2);}
+.fbox button{
+  width:75px;height:65px;padding: 0px 5px;
+  font-family: 'Poppins', sans-serif;font-size: 12px;font-weight: 500;color: white;
+  background: var(--blue);cursor: pointer;transition: ease .36s;
+}
+.fbox button:hover{background:var(--blue2);}
+.fbox span{width:100%;}
+.fbox span input{width:100%;outline:none;border:none;}
+
+
+
+/* RASTVORI */
+.rastvor4{border-top:7px solid #ffbb29;}
+.rastvor5{border-top:7px solid var(--red);}
+.rastvor6{border-top:7px solid #4cff70;}
+.rastvor4:hover{background:#ffbb29!important;}
+.rastvor5:hover{background:var(--red)!important;}
+.rastvor6:hover{background:#4cff70!important;}
+
+/* BRAUNILE */
+.braunila1{border-top:7px solid #ffe44c;}
+.braunila2,.rastvor1,.rastvor2,.rastvor3{border-top:7px solid var(--blue2);}
+.braunila3{border-top:7px solid #ff4cbd;}
+.braunila4{border-top:7px solid #4cff70;}
+.braunila5{border-top:7px solid #ffffff;}
+.braunila6{border-top:7px solid var(--gray4);}
+
+.braunila1:hover{background:#ffe44c!important;}
+.braunila2:hover,.rastvor1:hover,.rastvor2:hover,.rastvor3:hover{background:var(--blue2)!important;}
+.braunila3:hover{background:#ff4cbd!important;}
+.braunila4:hover{background:#4cff70!important;}
+.braunila5:hover{background:#ffffff!important;color:var(--gray);}
+.braunila6:hover{color:var(--gray);background:var(--gray4)!important;}
+
+
+/* SPRICEVI */
+/* IGLE */
+.igla1{border-top:7px solid #ffe44c;}
+.igla2{border-top:7px solid #4f2512;}
+.igla3{border-top:7px solid var(--blue2);}
+.igla4{border-top:7px solid #4cff70;}
+.igla5{border-top: 7px solid #ff4cbd;}
+.igla1:hover{background:#ffe44c!important;}
+.igla2:hover{background:#4f2512!important; }
+.igla3:hover{background:var(--blue2) !important;}
+.igla4:hover {background:#4cff70 !important;}
+.igla5:hover{background: #ff4cbd !important;}
+
+
+
+
+/*█████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████*/
+
+
+
+/*_   _    _    _     ___   ____ 
+ | \ | |  / \  | |   / _ \ / ___|
+ |  \| | / _ \ | |  | | | | |  _ 
+ | |\  |/ ___ \| |__| |_| | |_| |
+ |_| \_/_/   \_\_____\___/ \____|                                 
+*/
+.nalog {
+  /* min-height: 500px;
+  margin-bottom: 50px !important; */
+}
+.nalog-head {
+  width: 100%;
+  padding: 10px 0;
+}
+.lnalog-head {
+  position: relative;
+  /* margin: 0 auto; */
+  width: 130px;
+  height: 46px;
+}
+.search-patient {
+  width: 400px !important;
+  min-width: 400px !important;
+}
+.sc3 .search-input {
+  height: 29px !important 
+}
+.sc3 svg {
+  width: 20px !important;
+  height: 20px !important;
+  left: 10px !important;
+  padding: 0px;
+}
+.rnalog-head {
+width: 100%;
+}
+.lnalog-head p {
+  position: relative;
+  z-index: 10;
+  width: 130px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px;
+  color: var(--gray);
+  background: white;
+}
+
+.filter-addnalog {
+  width: 100%;
+}
+
+
+.sortNalog {
+  position: absolute;
+  z-index:9;
+  bottom: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  
+}
+/* .rnalog-head {
+  
+} */
+.rnalog-head span {
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--green);
+  padding: 2px 15px;
+  color: white;
+  border-radius: 33px;
+  cursor: pointer;
+  transition: ease-in-out .36s;
+}
+.rnalog-head span:hover {
+  background: var(--blue);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,.4);
+}
+.rnalog-head span:active {
+  background: var(--orange);
+}
+.filterNalog {
+  width: 100%;
+  margin-left: 20px;
+}
+.filterNalog .label-classic {
+  width: 90px;
+  
+}
+.filterNalog .label-classic:nth-child(3) {
+  margin-left: 10px
+  
+}
+.filterNalog .input-sec {
+  width: 170px;
+  text-align: center;
+  cursor: text;
+  font-weight: 500;
+  transition: ease .3s;
+}
+/*____   ___  ____ _____ 
+ / ___| / _ \|  _ \_   _|
+ \___ \| | | | |_) || |  
+  ___) | |_| |  _ < | |  
+ |____/ \___/|_| \_\|_|                           
+*/
+.select-doctor5 select{
+  cursor: pointer;
+  width: 130px;
+  height: 46px;
+  border:none;
+  outline: none;
+  color: white;
+  font-size: 15px;font-weight: 500;
+
+}
+.select-doctor5 option {
+  appearance: none;
+  border-radius: 33px;
+  background: var(--blue);
+  outline: none;
+  border:none;
+
+}
+.select-doctor5:after {
+  top: 50%;
+  left: 88%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+}
+.select-doctor5 select:focus {
+  outline: none;
+}
+.select-doctor5 option:active {
+  border-radius: 33px;
+  background: white !important;
+  outline: none;
+  border:none;
+
+}
+/* .input-date::-webkit-datetime-edit {
+
+}
+.input-date::-webkit-datetime-edit-fields-wrapper {
+
+}
+.input-date::-webkit-datetime-edit-text {
+
+}
+.input-date::-webkit-datetime-edit-month-field {
+
+}
+.input-date::-webkit-datetime-edit-day-field {
+
+}
+.input-date::-webkit-datetime-edit-year-field {
+
+}
+.input-date::-webkit-inner-spin-button {
+
+}
+.input-date::-webkit-calendar-picker-indicator {
+  
+} */
+/*█████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████*/
+
+  
+
+/*_   _    _    _     ___   ____ 
+ | \ | |  / \  | |   / _ \ / ___|
+ |  \| | / _ \ | |  | | | | |  _ 
+ | |\  |/ ___ \| |__| |_| | |_| |
+ |_| \_/_/   \_\_____\___/ \____|
+      ____ ____  ___ ____        
+     / ___|  _ \|_ _|  _ \       
+    | |  _| |_) || || | | |      
+    | |_| |  _ < | || |_| |      
+     \____|_| \_\___|____/                                               
+*/
+/* Head Names of GRID */
+.orange-check{border-left: 6px solid var(--orange) !important;}
+.green-check{border-left: 6px solid var(--green) !important;}
+.head-tcss {
+  margin-top: 5px;
+  text-indent: 5px;
+  padding-right: 0;
+  white-space: nowrap;
+  border-right: 1px solid var(--gray4);
+  border-top: 1px solid var(--gray4);
+  border-bottom: 1px solid var(--gray4);
+  border-left: 7px solid var(--blue);
+  overflow: hidden;
+}
+.scale {
+  padding: 0px 10px;
+}
+.nalogGrid-body {
+  transition: ease .3s;
+}
+.nalogGrid-body:hover {
+  transform: scale(1.015);
+}
+.no-vab {
+  cursor: pointer;
+  user-select: none;
+}
+.namesur-vab,.doctor-vab,.dateadded-vab,.fullprice-vab {
+  transition: ease .2s;
+}
+.nalogGrid-body > div {transition: ease 0.2s; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);}
+.nalogGrid-body:hover > div {border: 1px solid var(--blue); box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.0);}
+
+.nalogGrid-body:hover .namesur-vab {background: var(--blue);color: white; text-indent: 15px;border-left: 7px solid var(--blue);}
+.nalogGrid-body:hover .doctor-vab {background: var(--blue);color: white; text-indent: 15px;border-left: 7px solid var(--blue);}
+.nalogGrid-body:hover .dateadded-vab {background: var(--blue);color: white;border-left: 7px solid var(--blue);}
+.nalogGrid-body:hover .fullprice-vab {background: var(--blue);color: white;border-left: 7px solid var(--blue);}
+.nalogGrid-body:hover .options-vab {border: 1px solid var(--blue); border-left: 7px solid var(--blue);}
+.nalogGrid-body:hover .checked-vab {padding-left:0;border: none;}
+.nalogGrid-body:hover .no-vab {border: none;}
+
+#showAccountsDiv div:last-child .checked-vab:last-child {
+  border-bottom-right-radius: 11px;
+}
+#showAccountsDiv div:last-child .no-vab {
+  border-bottom-left-radius: 11px !important;
+}
+.nalogGrid-head, .viewAccountGrid-head, .duplicateViewGrid-head, .cardboardGrid-head, .trosakGrid-head {
+  padding: 10px 0px;
+  text-indent: 15px;
+  color: white;
+}
+.nalogGrid-head {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.nalogGrid-head, .nalogGrid-body {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 0.6fr 0.5fr 0.6fr 0.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:"no-vah namesur-vah doctor-vah dateadded-vah fullprice-vah options-vah checked-vah";
+}
+.nalogGrid-body {
+  background: white;
+  grid-template-areas:"no-vab namesur-vab doctor-vab dateadded-vab fullprice-vab options-vab checked-vab";
+}
+/*█████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████*/
+
+.trosakGrid-head, .trosakGrid-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:"namesur-vah dateadded-vah options-vah fullprice-vah";
+}
+.trosakGrid-body {
+  background: white;
+  grid-template-areas:"namesur-vab dateadded-vab options-vab fullprice-vab";
+}
+/*
+ __     ___                    _                             _    
+ \ \   / (_) _____      __    / \   ___ ___ ___  _   _ _ __ | |_  
+  \ \ / /| |/ _ \ \ /\ / /   / _ \ / __/ __/ _ \| | | | '_ \| __| 
+   \ V / | |  __/\ V  V /   / ___ \ (_| (_| (_) | |_| | | | | |_  
+    \_/  |_|\___| \_/\_/   /_/   \_\___\___\___/ \__,_|_| |_|\__| 
+                    ____ ____  ___ ____                           
+                   / ___|  _ \|_ _|  _ \                          
+                  | |  _| |_) || || | | |                         
+                  | |_| |  _ < | || |_| |                         
+                   \____|_| \_\___|____/                                                                                            
+id="modal3" */
+.viewAccountGrid-head,.viewAccountGrid-body {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 1fr 0.6fr 0.5fr 0.5fr 0.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:"no-vah namesur-vah doctor-vah appointment-vah therapy-vah blood-vah dateadded-vah fullprice-vah options-vah checked-vah";
+}
+.viewAccountGrid-body {
+  position: relative;
+  background: white;
+  grid-template-areas:"no-vab namesur-vab doctor-vab appointment-vab therapy-vab blood-vab dateadded-vab fullprice-vab options-vab checked-vab";
+}
+.no-vah { grid-area: no-vah; min-width: 40px;}
+.namesur-vah { grid-area: namesur-vah; min-width: 135px;}
+.doctor-vah { grid-area: doctor-vah; min-width: 100px;}
+.dateadded-vah{ grid-area: dateadded-vah; min-width: 170px;}
+.fullprice-vah { grid-area: fullprice-vah; min-width: 126px;}
+.options-vah{ grid-area: options-vah; min-width: 200px;}
+.checked-vah { grid-area: checked-vah; min-width:150px;}
+.appointment-vah { grid-area: appointment-vah; min-width: 105px;}
+.therapy-vah { grid-area:therapy-vah; min-width: 120px;}
+.blood-vah { grid-area: blood-vah;min-width: 105px;}
+
+.no-vab { 
+  grid-area: no-vab; min-width: 40px;border: 0;
+  color: white;
+  margin-top: 5px;
+  border: 0;
+  text-indent: 0 !important;
+  /* cursor: pointer; */
+}
+.namesur-vab { grid-area: namesur-vab; min-width: 135px;cursor: context-menu;}
+.doctor-vab { grid-area: doctor-vab; min-width: 100px;cursor: context-menu;}
+.dateadded-vab { grid-area: dateadded-vab; min-width: 170px;text-indent: 0px;cursor: context-menu;}
+.fullprice-vab { grid-area: fullprice-vab; min-width: 126px;font-weight: 500;cursor: context-menu;}
+.options-vab { grid-area: options-vab; min-width: 200px;cursor: context-menu;}
+.checked-vab { grid-area: checked-vab; min-width:150px; border: 0;}
+.appointment-vab { grid-area: appointment-vab; min-width: 105px;}
+.therapy-vab { grid-area:therapy-vab; min-width: 120px;}
+.blood-vab { grid-area: blood-vab;min-width: 105px;}
+/*█████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████*/
+
+/* 
+  ____              _ _           _            _                             _    
+ |  _ \ _   _ _ __ | (_) ___ __ _| |_ ___     / \   ___ ___ ___  _   _ _ __ | |_  
+ | | | | | | | '_ \| | |/ __/ _` | __/ _ \   / _ \ / __/ __/ _ \| | | | '_ \| __| 
+ | |_| | |_| | |_) | | | (_| (_| | ||  __/  / ___ \ (_| (_| (_) | |_| | | | | |_  
+ |____/ \__,_| .__/|_|_|\___\__,_|\__\___| /_/   \_\___\___\___/ \__,_|_| |_|\__| 
+             |_|        ____ ____  ___ ____                                       
+                       / ___|  _ \|_ _|  _ \                                      
+                      | |  _| |_) || || | | |                                     
+                      | |_| |  _ < | || |_| |                                     
+                       \____|_| \_\___|____/                                      
+subAccounts.php */
+.duplicateViewGrid-head,.duplicateViewGrid-body {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:"no-vah namesur-vah doctor-vah appointment-vah therapy-vah blood-vah fullprice-vah";
+}
+.duplicateViewGrid-body {
+  position: relative;
+  background: white;
+  grid-template-areas:"no-vab namesur-vab doctor-vab appointment-vab therapy-vab blood-vab fullprice-vab";
+}
+/*█████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████ █████*/
+
+
+
+
+
+.noaccount {
+  text-align: center;
+}
+
+
+.nemakrvi {
+  display: block !important;
+}
+
+
+#updatePatientDiv {
+  display: none;
+  opacity: hidden;
+}

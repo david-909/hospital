@@ -1,0 +1,228 @@
+/* Form Class */
+.open-cardboard{width:100%;min-width:50%;}
+
+
+/* Head Grid od Modala1 (id="modal1") - PregledKartona kartoni.php */
+.cardboardGrid-head, .cardboardGrid-body {
+  background: var(--blue);
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "no-vah doctor-vah appointment-vah therapy-vah blood-vah dateadded-vah fullprice-vah";
+}
+/* Body Grid od Modala1 (id="modal1") - PregledKartona kartoni.php */
+.cardboardGrid-body {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #3d3d3d !important;
+  position: relative;
+  background: white;
+  grid-template-areas:"no-vab doctor-vab appointment-vab therapy-vab blood-vab dateadded-vab fullprice-vab";
+}
+
+.cardboardGrid-body .fullprice-vab {
+  padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SEARCH */
+/* Input Primary */
+.search-component{
+    position:relative;width:100%;
+    border-radius:33px;
+}
+#search{position:absolute;z-index:50;left:15px;width:30px;height:30px;padding:2px;fill:white; }
+
+.si2, .sc2 {
+  width: 250px !important;
+  height: 30px !important;
+}
+
+
+
+/* Search Patient DIV */
+.search-output{
+    width:70%;height:auto;margin:0 auto;
+    border-bottom-left-radius: 21px;border-bottom-right-radius: 21px;
+    box-shadow: 0px 0px 10px 0px rgba(82, 82, 82, 0.2);
+    transition: ease-in-out .3s;
+}
+
+/* Search Patient Button */
+.search-btn{
+  background: var(--lightgray);
+    width:95%;margin:0 auto;margin-top:10px;padding:5px 20px;
+    font-size:16px;font-weight:500;display:-webkit-box;font-family:'Poppins',sans-serif;
+    transition: all 1s linear;
+    display:flex;
+    justify-content: center;
+    height: auto;
+    flex-direction:column;
+    transition:ease-in-out .2s;cursor:pointer;}
+.search-btn:hover{background:var(--blue2);color:white;}
+.search-btn:nth-child(1){margin-top:15px;}
+.search-btn:last-child {margin-bottom: 15px;}
+/* .search-btn:nth-last-child(1){margin-bottom: 20px;} */
+
+
+
+.animate {
+  animation: fadeIn 500ms ease-out backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+
+
+.label-classic{width:80%;font-weight:600;color:var(--gray6);}
+
+.input-sec{
+    position:relative;z-index:10;
+    width:100%;padding:5px 10px;border:0;outline:0;border-radius:33px;
+    font-weight:500;text-align:center;color:var(--gray);
+    background:var(--lightgray2);}
+.input-sec2{background:white;}
+.input-sec:hover{box-shadow:0px 0px 5px 0px rgba(0,0,0,.3);outline:none;background:white;}
+.input-sec:focus{
+    /* outline:1px solid var(--gray3); */
+    box-shadow:none;
+    -webkit-transition:ease-in-out.2s;
+    -o-transition:ease-in-out.2s;
+    transition:ease-in-out.2s;
+    background:white;}
+.input-sec::-webkit-input-placeholder{
+    -webkit-transition:ease-in-out 0.2s;opacity:1;
+    transition:ease-in-out 0.2s;color:var(--gray2);font-weight:500;}
+.input-sec:focus::-webkit-input-placeholder{opacity:0;}
+.input-sec:focus::-moz-placeholder{opacity:0;}
+.input-sec:focus:-ms-input-placeholder{opacity:0;}
+/* end of Input Secondary */
+
+
+
+
+.comment {width: 100%;}
+  
+.comment-area {
+    min-width: 200px;
+    width: 100%;
+    
+    height: 122px;
+    padding: 20px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 13px;
+    border-top-left-radius: 0;
+    background: var(--lightgray2);
+    resize: none;
+    -webkit-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+}
+.comment-area-small {
+    width: 100%;
+    padding: 20px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 13px;
+    border-top-left-radius: 0;
+    background: var(--lightgray2);
+    resize: none;
+    -webkit-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+}
+.comment textarea:focus {
+  outline: 1px solid var(--gray3);
+}
+
+
+.commentprice{
+    width: 95%;height:40px;resize: none;
+    border:none;outline:none;
+    background: var(--lightgray);
+    transition: ease-in-out .3s;
+    
+}
+.commentc{
+    position: relative;
+    padding: 8px 20px;
+    white-space: nowrap;
+    overflow:hidden;
+    overflow-x: auto;
+    cursor: pointer;
+}
+.commentprice:hover{
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.commentprice:focus{
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.error-msg {
+    width: 200px;
+    font-size: 13px;
+    word-break: break-all;
+    color: var(--red);
+}
+
+
+
+#searchPatient {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.updateCardboard {
+  transition: all 0.5s !important;
+}
+
+.section {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.46s ease-in-out;
+  height: auto;
+}
+
+/* Prozor od Update Pacijenta */
+.updatePatientDivClass {
+  top: 20%;
+  width: 100%;
+  height: auto;
+  transition: ease-in-out 1s;
+  padding: 0px 20px;
+  border-bottom: 2px solid var(--gray4);
+  margin-bottom: 10px;
+  background:white;
+}
+/* Button od Update Pacijenta */
+.updateClass {
+  margin-bottom: 20px;
+}
+
+.showUpdatePatient {
+  margin-left: 10px;
+  margin-right: 10px;
+}
